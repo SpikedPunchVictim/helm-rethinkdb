@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+main {
+    padding: 20px;
+}
+.cookie-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.cookie-gallery img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+form label {
+    margin: 10px 0 5px;
+}
+form input, form select {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form button {
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #e6b800;
+}
